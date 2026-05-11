@@ -1,0 +1,34 @@
+[MESSAGES CONTROL]
+disable=
+    missing-module-docstring,
+    missing-class-docstring,
+    missing-function-docstring,
+    line-too-long,
+    too-few-public-methods,
+    wrong-import-order,
+    unused-argument,
+    unused-import,
+    too-many-locals,
+    too-many-statements,
+    too-many-branches,
+    too-many-return-statements,
+    too-many-arguments,
+    duplicate-code,
+    broad-exception-caught,
+    invalid-name,
+    redefined-outer-name,
+    consider-using-with,
+    raise-missing-from
+
+[FORMAT]
+max-line-length=120
+
+[MAIN]
+ignore=venv,__pycache__,migrations
+
+[TYPECHECK]
+ignored-modules=fastapi,sqlalchemy,pydantic,passlib,jose
+
+[REPORTS]
+output-format=text
+score=yes
